@@ -18,6 +18,10 @@
 
 body {
     font-family: 'Lexend Deca', sans-serif;
+    display: grid;
+    min-height: 100vh;
+    place-content: center;
+    margin: 1.5rem;
 }
 
 h1{
@@ -84,7 +88,7 @@ p{
     transition: all .4s ease-in-out;
 }
 
-@media (min-width:996px){
+@media (min-width:980px){
 .container{
     display: grid;
     grid-template-columns: repeat(3, 1fr); 
@@ -92,6 +96,7 @@ p{
     align-items: center;
     //min-height: 100vh;
     margin: 100px ;
+    max-width:1000px;
   
     }
 .box{
